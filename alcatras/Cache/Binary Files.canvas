@@ -1,0 +1,133 @@
+{
+	"nodes":[
+		{"id":"7fbae4b3f26077e0","type":"text","text":"Magic Numbers - идентифицируют файл, как выполняемый","x":-1700,"y":-580,"width":280,"height":80},
+		{
+			"id":"d3d1bf87f528bd7e",
+			"type":"text",
+			"text":"BSS size. BSS - сегмент данных, который хранит неинициализированные переменные или равные 0\n",
+			"styleAttributes":{},
+			"x":-1975,
+			"y":-457,
+			"width":550,
+			"height":97
+		},
+		{
+			"id":"9d88ebb3a0e6392e",
+			"type":"text",
+			"text":"Symbol Table - Таблица символов\nСтруктура данных, используемая компилятором, в которой каждый идентификатор переменной или функции из исходного кода ассоциируется с информацией, связанной с его объявлением - тип данных, область видимости, смещение.",
+			"styleAttributes":{},
+			"x":-1620,
+			"y":80,
+			"width":630,
+			"height":160
+		},
+		{
+			"id":"6a6e6a66ffd4ceab",
+			"type":"text",
+			"text":"Entry point - виртуальный адрес первой инструкции,  с которой начнет выполняться программа после запуска",
+			"styleAttributes":{},
+			"x":-1815,
+			"y":-298,
+			"width":390,
+			"height":120
+		},
+		{
+			"id":"131d34c8e54b61e9",
+			"type":"text",
+			"text":"Flags - просто какие-то биты)",
+			"styleAttributes":{},
+			"x":-1700,
+			"y":-140,
+			"width":280,
+			"height":60
+		},
+		{"id":"c94eea6fac20339b","type":"file","file":"Cache/Pasted image 20260124191125.png","x":-1760,"y":340,"width":400,"height":350},
+		{"id":"22f3e572a0ff9d87","type":"file","file":"Cache/Binary Files.png","x":-1360,"y":-580,"width":780,"height":643},
+		{
+			"id":"5b86121d3825724b",
+			"type":"text",
+			"text":"Relocation bits - показывают, какие инструкции не являются позиционно независимыми - к ним надо прибавить base address",
+			"styleAttributes":{},
+			"x":-1945,
+			"y":-60,
+			"width":520,
+			"height":100
+		},
+		{
+			"id":"a0155d59653ef188",
+			"type":"text",
+			"text":"Relocation bits - показывают, какие инструкции не являются позиционно независимыми - к ним надо прибавить base address",
+			"styleAttributes":{},
+			"x":-1960,
+			"y":-60,
+			"width":520,
+			"height":100
+		},
+		{
+			"id":"d72af5409988f095",
+			"type":"text",
+			"text":"# ",
+			"styleAttributes":{},
+			"x":-1880,
+			"y":-720,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2dd774e167e2d68c",
+			"type":"text",
+			"text":"#addressspacestructure",
+			"styleAttributes":{},
+			"x":-2205,
+			"y":-640,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"a39fe7a669b16d69",
+			"type":"text",
+			"text":"![[Pasted image 20260124190535.png]]",
+			"styleAttributes":{},
+			"x":-2240,
+			"y":-500,
+			"width":200,
+			"height":420
+		},
+		{
+			"id":"22b262ca9247000f",
+			"type":"text",
+			"text":"![[Pasted image 20260124190535.png]]",
+			"styleAttributes":{},
+			"x":-2240,
+			"y":-520,
+			"width":200,
+			"height":420
+		},
+		{"id":"6e967e5b5291e872","type":"file","file":"Cache/Pasted image 20260518014752.png","x":-2740,"y":-492,"width":470,"height":365}
+	],
+	"edges":[
+		{
+			"id":"b7f27739744255dc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d3d1bf87f528bd7e",
+			"fromSide":"left",
+			"toNode":"a39fe7a669b16d69",
+			"toSide":"right"
+		},
+		{
+			"id":"421d9bfb41e03e74",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"9d88ebb3a0e6392e",
+			"fromSide":"bottom",
+			"toNode":"c94eea6fac20339b",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"265a685e97f0ff0d"
+	}
+}

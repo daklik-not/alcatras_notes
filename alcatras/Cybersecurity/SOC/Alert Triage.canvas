@@ -1,0 +1,68 @@
+{
+	"nodes":[
+		{
+			"id":"ce7564d944b501d2",
+			"type":"text",
+			"text":"Первая часть(красная) - говорим, что именно мы будем исследовать этот пакет",
+			"styleAttributes":{},
+			"x":-700,
+			"y":-440,
+			"width":380,
+			"height":80
+		},
+		{
+			"id":"1a4f8c43fa9b8ce9",
+			"type":"text",
+			"text":"Вторая часть(синяя) - исследование пакета\nЧасто компании дают методички, как обрабатывать те или иные пакеты.\nЕсли методички нет, то:\n1. Кто под угрозой - пользователь, облако, сайт и т.д\n2. Посмотреть, какое действие указано в самом алерте\n3. Посмотреть близкие к нему события\n   Использовать \n4. Использовать Thread Intelligence Platforms(TIP), чтобы подтверждать или опровергать свои докадки",
+			"styleAttributes":{},
+			"x":-240,
+			"y":-620,
+			"width":666,
+			"height":260
+		},
+		{"id":"fc1ae7d4a67fbb4e","type":"file","file":"Cache/Pasted image 20260607010517.png","x":-893,"y":-289,"width":1145,"height":398},
+		{
+			"id":"26c3bb9424404990",
+			"type":"text",
+			"text":"3 часть(зеленая) - принятие решения\nНу короче либо принимаем решение, и пишет, что алерт обработан, либо эскалируем наверх",
+			"styleAttributes":{},
+			"x":-600,
+			"y":200,
+			"width":460,
+			"height":100
+		}
+	],
+	"edges":[
+		{
+			"id":"94ea69e3eace6136",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1a4f8c43fa9b8ce9",
+			"fromSide":"bottom",
+			"toNode":"fc1ae7d4a67fbb4e",
+			"toSide":"right"
+		},
+		{
+			"id":"b0c7d97e2f525d24",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ce7564d944b501d2",
+			"fromSide":"bottom",
+			"toNode":"fc1ae7d4a67fbb4e",
+			"toSide":"top"
+		},
+		{
+			"id":"5692f6739a297cf9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"26c3bb9424404990",
+			"fromSide":"top",
+			"toNode":"fc1ae7d4a67fbb4e",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

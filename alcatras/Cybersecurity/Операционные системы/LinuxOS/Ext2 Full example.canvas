@@ -1,0 +1,106 @@
+{
+	"nodes":[
+		{"id":"f8b4793cfd17c659","type":"group","x":-600,"y":-40,"width":1610,"height":1120,"label":"int code = read(fd, buffer, bytes)"},
+		{"id":"749f93b08aa2618b","type":"group","x":-340,"y":-820,"width":980,"height":580,"label":"int fd = open(\"file.txt\", O_RDWR | O_CREAT);"},
+		{"id":"bf50747767d3b17c","type":"text","text":" Мы хотим чтобы, когда к файлу обращалось несколько процессов, то указатели были независимы(то есть перемещение не меняет другой),  но при этом и зависимые(иногда хочется чтобы первый указатель задавал второй, например, когда последовательно пытаются писать в файл)","x":10,"y":41,"width":380,"height":198},
+		{"id":"06b5cae6ad11eba8","type":"text","text":"Когда ядро получает контроль, оно обращается к своей структуре  - ***file desctiptor array***. Она индексируется по дескриптору и содержит оно вхождение для каждого открытого файла. Для каждого вхождения мы хотим хранить  как минимум указатель на инод и позицию файла.\n","x":-560,"y":75,"width":450,"height":164},
+		{"id":"236113dc60ebc4c6","type":"text","text":"/usr/ast/file - абсолютный путь","x":-246,"y":-780,"width":250,"height":60},
+		{"id":"8fc070a5ab227cf2","type":"text","text":"обнаружение root директории - 2 инод. ОС скачивает с диска директорию и в RAM создает dentry_struct, которая помещается в dentry_cache(который в свою очередь является частью slab-кэша.","x":-301,"y":-680,"width":360,"height":140},
+		{"id":"a489e29101dfb0e3","type":"text","text":"Пытаемся найти usr i-node number в dentry-кэше, Если не получается, то скачиваем блоки данных инода текущей директории, и потом делаем линейный поиск по файлу директории.  Если находим, то используя i-node number, как индекс в **inode_table**(СД ядра, содержит все иноды для текущих открытых файлов и директорий. Она хранится на диске).","x":-301,"y":-460,"width":441,"height":220},
+		{"id":"f788b38efa15db05","type":"file","file":"Cache/Pasted image 20260526134140.png","x":120,"y":-720,"width":480,"height":220},
+		{
+			"id":"51ee4c1f8dbd29f2",
+			"type":"text",
+			"text":"Из таблицы open-file-decription ОС по номеру инода переходит в сам ***inode*** файла В нем помимо уже перечисленного в канвасе про open() хранятся адреса  блоков  в виде:\n1. адреса первых 12\n2. ***single indirect***, ***double indirect***, ***triple indirect***, где каждый блок по увеличению хранит блоки предыдущего типа\nПосле ОС просто скачивает все запрашиваемые блоки в RAM",
+			"styleAttributes":{},
+			"x":-216,
+			"y":580,
+			"width":530,
+			"height":240
+		},
+		{
+			"id":"23321ce08c0a1d40",
+			"type":"text",
+			"text":"Чтобы решить это используется ***open file description*** таблица.  Иерархически она находится между i-node таблицей и file-descriptor массивом.  Фактически, вхождение в file-decriptor array хранит указатель на open file decription таблицу. В ней хранится R/W биты, указатель на инод, позиция файла. При этом для дочернего процесса позиция мапится на родительский(одно и то же вхождение в таблицу), а для стороннего она мапится на новую позицию(разные вхождения)(смотреть рисунок)",
+			"styleAttributes":{},
+			"x":-110,
+			"y":300,
+			"width":580,
+			"height":220
+		},
+		{
+			"id":"4de0cd8d3a5b06e8",
+			"type":"text",
+			"text":"После того, как мы загрузили блоки в RAM, а именно в ***Page Cache***, который относится к памяти ядра. Далее ядро копирует в пользовательский буфер(если не mmap, а это не mmap поскольку read) нужные данные",
+			"styleAttributes":{},
+			"x":-70,
+			"y":880,
+			"width":384,
+			"height":160
+		},
+		{"id":"974706652663140e","type":"file","file":"Cache/Pasted image 20260526135229.png","x":590,"y":260,"width":340,"height":300}
+	],
+	"edges":[
+		{"id":"e71b88d313fbdc24","toFloating":false,"fromNode":"236113dc60ebc4c6","fromSide":"bottom","toNode":"8fc070a5ab227cf2","toSide":"top"},
+		{"id":"e6627f784258b17d","fromNode":"8fc070a5ab227cf2","fromSide":"bottom","toNode":"a489e29101dfb0e3","toSide":"top"},
+		{"id":"516dbc1eb84e4f13","fromNode":"06b5cae6ad11eba8","fromSide":"right","toNode":"bf50747767d3b17c","toSide":"left"},
+		{
+			"id":"d6b6793fa737bfda",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a489e29101dfb0e3",
+			"fromSide":"right",
+			"toNode":"f788b38efa15db05",
+			"toSide":"bottom"
+		},
+		{
+			"id":"1c5ce6b991b77b44",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"06b5cae6ad11eba8",
+			"fromSide":"bottom",
+			"toNode":"23321ce08c0a1d40",
+			"toSide":"left"
+		},
+		{
+			"id":"910b450ae93ad122",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"bf50747767d3b17c",
+			"fromSide":"bottom",
+			"toNode":"23321ce08c0a1d40",
+			"toSide":"top"
+		},
+		{
+			"id":"8b4cc5db78a9c176",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23321ce08c0a1d40",
+			"fromSide":"right",
+			"toNode":"974706652663140e",
+			"toSide":"left"
+		},
+		{
+			"id":"84b3d2ad2773eec0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23321ce08c0a1d40",
+			"fromSide":"bottom",
+			"toNode":"51ee4c1f8dbd29f2",
+			"toSide":"top"
+		},
+		{
+			"id":"4fd88defabf78a63",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"51ee4c1f8dbd29f2",
+			"fromSide":"bottom",
+			"toNode":"4de0cd8d3a5b06e8",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

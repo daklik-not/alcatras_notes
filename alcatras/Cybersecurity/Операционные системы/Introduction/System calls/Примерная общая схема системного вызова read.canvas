@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"76a33d92535e0096","type":"text","text":"Пользовательская программа вызывает функцию read() из библиотеки процедур","x":-361,"y":-260,"width":460,"height":80},
+		{"id":"104c8146a70dc6f7","type":"text","text":"Библиотека помещает данные на регистры процессора, если их не хватает то на стек (у read их всего 3, это к другим относится) и выполняет syscall. Сама инструкция уже является trap instruction","x":-108,"y":-120,"width":480,"height":140},
+		{"id":"c71ca5bbf05cdd7f","type":"text","text":"Процессор переключается в режим ядра, сохраняет контекст пользователя и передает управление обработчику системных вызовов ядра","x":-475,"y":80,"width":418,"height":120},
+		{"id":"8e66f4abd8900ad7","type":"text","text":"Обработчик использует номер системного вызова как индекс в таблице системных вызовов и вызывает sys_read()","x":-20,"y":240,"width":360,"height":106},
+		{"id":"9b54a8aba618c198","x":-475,"y":400,"width":334,"height":120,"color":"1","type":"text","text":"Проверяется валидность всех аргументов, например есть ли у процесса право на чтение из этого файла"},
+		{"id":"999bfd2e0d5ad41e","x":-652,"y":598,"width":412,"height":202,"type":"text","text":"Если данных нет. Текущий процесс помещается в режим сна. Ядро формирует запрос к драйверу диска. Драйвер настраивает DMA для записи данных напрямую в буфер ядра. Дисковый контроллер выполняет чтение и помещает данные в память. Контроллер генерирует сигнал прерывания"},
+		{"id":"084c0edc5590e5c9","x":-82,"y":598,"width":362,"height":80,"type":"text","text":"Ядро ищет запрошенные данные в page cache. Если есть то page hit и помещение их буфер ядра."},
+		{"id":"f4dba70d3e9e89a9","x":-481,"y":920,"width":399,"height":102,"type":"text","text":"Процессор обрабатывает прерывания, вызывая обработчик прерываний драйвера диска"},
+		{"id":"cd2447b4afe52685","x":-297,"y":1080,"width":379,"height":80,"type":"text","text":"ISR будит процесс, сообщая, что данные готовы."},
+		{"id":"ebf0dc2652b319a8","x":122,"y":1160,"width":250,"height":140,"type":"text","text":"Данные из буфера ядра, копируются в буфер пользовательского процесса"}
+	],
+	"edges":[
+		{"id":"3fdefd01c0ab6fae","fromNode":"76a33d92535e0096","fromSide":"bottom","toNode":"104c8146a70dc6f7","toSide":"top"},
+		{"id":"2ae3f01f131328d2","fromNode":"104c8146a70dc6f7","fromSide":"bottom","toNode":"c71ca5bbf05cdd7f","toSide":"top"},
+		{"id":"465340a2e5585b2e","fromNode":"c71ca5bbf05cdd7f","fromSide":"bottom","toNode":"8e66f4abd8900ad7","toSide":"top"},
+		{"id":"ae4d5829216cdd26","fromNode":"8e66f4abd8900ad7","fromSide":"bottom","toNode":"9b54a8aba618c198","toSide":"top"},
+		{"id":"2454166f58f70550","fromNode":"9b54a8aba618c198","fromSide":"bottom","toNode":"084c0edc5590e5c9","toSide":"top"},
+		{"id":"1a8add4f735d97a8","fromNode":"9b54a8aba618c198","fromSide":"bottom","toNode":"999bfd2e0d5ad41e","toSide":"top"},
+		{"id":"0d61fe445ffae478","fromNode":"999bfd2e0d5ad41e","fromSide":"bottom","toNode":"f4dba70d3e9e89a9","toSide":"top"},
+		{"id":"3bc696098ef77558","fromNode":"f4dba70d3e9e89a9","fromSide":"bottom","toNode":"cd2447b4afe52685","toSide":"top"},
+		{"id":"db7d6642ec90a9c4","fromNode":"084c0edc5590e5c9","fromSide":"bottom","toNode":"ebf0dc2652b319a8","toSide":"right"},
+		{"id":"2b90ab2a13971bbc","fromNode":"cd2447b4afe52685","fromSide":"bottom","toNode":"ebf0dc2652b319a8","toSide":"left"}
+	]
+}
