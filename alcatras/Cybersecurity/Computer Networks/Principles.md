@@ -4,7 +4,7 @@
 [[Naming and Addressing]]
 [[Sharing Resourses]]
 [[Reference Model]]
-[[Network Security]]
+[[Cybersecurity/Computer Networks/Principles/Network Security]]
 
 
 

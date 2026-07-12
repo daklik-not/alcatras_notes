@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"b7bb6b808cbe027e","type":"group","x":2560,"y":-2080,"width":1807,"height":1103,"label":"Что можно а что нельзя автоматизировать"},
+		{"id":"179dfdc165e0b4d4","type":"file","file":"Pasted image 20260611160024.png","x":1860,"y":-720,"width":2947,"height":945,"color":"4"},
+		{"id":"4518626d7630afa3","type":"file","file":"Pasted image 20260611163551.png","x":2600,"y":-1638,"width":733,"height":320},
+		{"id":"bd9c5aa36637f95a","type":"file","file":"Pasted image 20260611164507.png","x":2580,"y":-1238,"width":774,"height":241},
+		{"id":"41e5be1a58218a79","type":"file","file":"Pasted image 20260611164530.png","x":2600,"y":-1998,"width":754,"height":235},
+		{"id":"a6760ee2adbf4394","type":"file","file":"Pasted image 20260611164742.png","x":3500,"y":-2060,"width":847,"height":360},
+		{"id":"9230157bc7214a80","type":"file","file":"Pasted image 20260611164616.png","x":3500,"y":-1503,"width":754,"height":265}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

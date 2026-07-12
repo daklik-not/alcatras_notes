@@ -56,3 +56,5 @@ Expiration of the retransmission timer:
     sshtresh = max(cwnd/2, 2*MSS)
     cwnd = MSS
 ```
+
+Доделать

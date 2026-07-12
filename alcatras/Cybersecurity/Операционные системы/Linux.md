@@ -16,5 +16,13 @@
  Много кода с UNIX было перенесено на LINUX. GUI: GNOME, KDE.
  Linux бесплатный, код можно распространять. При этом нельзя продавать или распространять только в бинарной форме работы, которые наследуют ядро Linux - всегда должен быть открытый код.
  
- [[Overview of Linux]]
+___
  
+ [[Overview of Linux]]
+ [[Linux IO]]
+ [[Linux FS]]
+ [[Linux Memory Management]]
+ [[Linux Security]]
+ [[NFS Example.canvas]]
+ 
+___
