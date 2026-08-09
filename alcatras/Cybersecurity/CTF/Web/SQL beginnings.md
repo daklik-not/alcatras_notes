@@ -1,3 +1,4 @@
+#sqli
 **DBMS - Database Management Systems** - помогает управлять базами данных
 Есть несколько типов  DBMS - файловые, реляционные, нереляционные, графовые, key-value.
 ![[Pasted image 20251104201558.png]]

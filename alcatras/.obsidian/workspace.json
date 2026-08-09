@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1243a1e3f58a8eb6",
+        "id": "70383729f56d6cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "bb45d298a300caa8",
+            "id": "b0ff0eaafcde7005",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "7f988e293f34e89a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "План повторения - Cybersecurity.md",
+                "file": "Cybersecurity/CTF/Encrypting/RSA my note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "План повторения - Cybersecurity"
+              "title": "RSA my note"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -53,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MAPI",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,47 +193,51 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "bb45d298a300caa8",
+  "active": "7f988e293f34e89a",
   "lastOpenFiles": [
-    "State notes/Cybersecurity.md",
+    "Cybersecurity/CTF/Encrypting/DH.md",
+    "Flutting notes/CROC.md",
+    "Flutting notes/TCP Congestion.md",
     "План повторения - Cybersecurity.md",
-    "Cybersecurity/SOC/Практическая часть/Snort.md",
+    "Cybersecurity/SOC/Практическая часть/Tools/Nmap.md",
+    "Cybersecurity/SOC/Практическая часть/Phishing.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Security.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Linux Scheduling.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux IO.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Booting Linux.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux FS.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Создание процесса.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Process-Management System Calls in Linux.md",
+    "Cybersecurity/Операционные системы/LinuxOS/Linux overview/Shell.md",
+    "Cybersecurity/Операционные системы/Linux.md",
+    "Cybersecurity/LinuxPractice/SSH.md",
+    "Cybersecurity/LinuxPractice/Text commands.md",
+    "Cybersecurity/LinuxPractice/Processes.md",
+    "Cybersecurity/LinuxPractice/Administration + permissions.md",
+    "Cybersecurity/LinuxPractice/Самые примитивные команды.md",
+    "Cybersecurity/LinuxPractice.md",
+    "Flutting notes/Red-Black tree.md",
+    "Cybersecurity/Операционные системы/Memory management/Virtual memory/Speeding up pagin/Memory decrease - (Multilevel~Inverted page tables).md",
+    "Cybersecurity/Computer Networks/Protocols/Electronic mail.md",
+    "Cybersecurity/Computer Networks/Protocols/Email/SMTP синтаксис.md",
+    "CROC",
+    "Cache/Без названия",
+    "Cache/Pasted image 20260716183423.png",
+    "Cache/Pasted image 20260716183118.png",
+    "Cache/Pasted image 20260715205540.png",
+    "Cybersecurity/CTF/Boost/Без названия.canvas",
+    "Cache/Pasted image 20260715170108.png",
+    "Cybersecurity/Операционные системы/Processes && Threads/Even-Driven Server/event-driven server code.canvas",
+    "Cache/Pasted image 20260714005138.png",
     "Cache/Pasted image 20260712232126.png",
     "Cache/Pasted image 20260712231930.png",
     "Cache/Pasted image 20260712231818.png",
-    "Flutting notes/Networks/IP.md",
     "Cache/Pasted image 20260712212641.png",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/The Windows Registry - Реестр Windows.md",
-    "Cybersecurity/Операционные системы/Windows.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/The Win32 Application Programming Interface.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/The Native NT Application Programming Interface.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/UWP.md",
     "Cybersecurity/Операционные системы/Windows/Programming Windows",
     "Cache/Pasted image 20260712012337.png",
-    "Cache/Pasted image 20260712010039.png",
-    "Cybersecurity/SOC/Теоретическая часть/Средства защиты/IDS Fundamentals.md",
-    "Cybersecurity/SOC/Теоретическая часть/Средства защиты/EDR.md",
-    "Cybersecurity/SOC/Snort.md",
     "Cybersecurity/Операционные системы/LinuxOS/Ext2 Full example.canvas",
-    "Cache/Pasted image 20260711134430.png",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux FS.md",
-    "Cybersecurity/Архитектура ЭВМ/Память на самом нижнем уровне архитектуры.md",
-    "Cybersecurity/Архитектура ЭВМ/Cache.md",
-    "Flutting notes/problems/chap1problems.md",
-    "Flutting notes/problems/chap2problems.md",
-    "Flutting notes/problems/chap4problems.md",
-    "Cybersecurity/SOC/Практическая часть/Network Traffic analysis.md",
-    "State notes/History.md",
-    "Cache/Pasted image 20250727155444.png",
-    "Cache/Pasted image 20250804140520.png",
-    "Cache/deepseek_mermaid_20260508_dde9e9 1.png",
     "Cache/Binary Files.canvas",
-    "Cybersecurity/LinuxPractice/SSH.md",
-    "Cybersecurity/LinuxPractice.md",
-    "Cybersecurity/LinuxPractice/Text commands.md",
-    "Cybersecurity/LinuxPractice/Processes.md",
     "Cybersecurity/SOC/Практическая часть/Tools",
     "Cybersecurity/SOC/Практическая часть/Network Security",
     "Cybersecurity/SOC/Теоретическая часть/Playbooks and triage guides/Workbook example.canvas",
@@ -231,11 +248,7 @@
     "Cybersecurity/SOC/Теоретическая часть/Фреймворки",
     "Cybersecurity/SOC/Практическая часть",
     "Cybersecurity/SOC/Теоретическая часть",
-    "Cybersecurity/CTF/Boost/Без названия.canvas",
-    "Cybersecurity/Операционные системы/Windows",
-    "Cybersecurity/SOC",
     "Cybersecurity/Операционные системы/LinuxOS/NFS Example.canvas",
-    "Cybersecurity/Операционные системы/Processes && Threads/Even-Driven Server/event-driven server code.canvas",
     "Cybersecurity/Операционные системы/Introduction/System calls/Примерная общая схема системного вызова read.canvas",
     "Flutting notes/web-server(some code).canvas"
   ]
