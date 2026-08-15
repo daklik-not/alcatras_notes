@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "70383729f56d6cf7",
+        "id": "8b057b49f4e97181",
         "type": "tabs",
         "children": [
           {
-            "id": "7f988e293f34e89a",
+            "id": "34e605f9cfa0141e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutting notes/SOC/Core Windows Processes.md",
+                "file": "Flutting notes/SOC/Windows Event Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Core Windows Processes"
-            }
-          },
-          {
-            "id": "1bf417f966f91e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Subsystems"
+              "title": "Windows Event Logs"
             }
           }
         ]
@@ -69,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crss",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +86,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,21 +183,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "7f988e293f34e89a",
+  "active": "34e605f9cfa0141e",
   "lastOpenFiles": [
+    "Flutting notes/SOC/Web DDoS.md",
+    "Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
+    "Cybersecurity/Computer Networks/Protocols/SCTP.md",
+    "Cybersecurity/Computer Networks/Protocols/Remote login.md",
+    "Flutting notes/SOC/Windows Event Logs.md",
+    "Flutting notes/SOC/Core Windows Processes.md",
+    "Cache/Pasted image 20260813183604.png",
+    "Cache/Pasted image 20260813183458.png",
+    "Cache/Pasted image 20260813182926.png",
+    "Cache/Pasted image 20260813181131.png",
+    "Cache/Pasted image 20260813175949.png",
+    "Cache/Pasted image 20260813175939.png",
+    "Cache/Pasted image 20260813175144.png",
     "Cache/Pasted image 20260811182328.png",
     "Cache/Pasted image 20260811180509.png",
     "Cache/Pasted image 20260811175224.png",
-    "Cache/Pasted image 20260811175202.png",
-    "Cache/Pasted image 20260811175031.png",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
-    "Flutting notes/SOC/Core Windows Processes.md",
-    "Cache/Pasted image 20260811172313.png",
     "Cybersecurity/Операционные системы/Windows/System Structure.md",
-    "Cache/Pasted image 20260811170005.png",
     "Cybersecurity/Операционные системы/Windows/Programming Windows.md",
-    "Flutting notes/SOC/Web DDoS.md",
-    "Cache/Pasted image 20260811133116.png",
     "Flutting notes/CROC.md",
     "Cybersecurity/CTF/Encrypting/RSA my note.md",
     "Cybersecurity/CTF/Encrypting/DH.md",
@@ -231,13 +221,8 @@
     "Cybersecurity/Операционные системы/LinuxOS/Linux overview/Shell.md",
     "Cybersecurity/Операционные системы/Linux.md",
     "Cybersecurity/LinuxPractice/SSH.md",
-    "Cybersecurity/LinuxPractice/Text commands.md",
-    "Cybersecurity/LinuxPractice/Processes.md",
     "CROC",
     "Cache/Без названия",
-    "Cache/Pasted image 20260716183423.png",
-    "Cache/Pasted image 20260716183118.png",
-    "Cache/Pasted image 20260715205540.png",
     "Cybersecurity/CTF/Boost/Без названия.canvas",
     "Cybersecurity/Операционные системы/Processes && Threads/Even-Driven Server/event-driven server code.canvas",
     "Cybersecurity/Операционные системы/Windows/Programming Windows",
