@@ -151,7 +151,7 @@ $$(2k + n) / k$$
 		Количество уменьшилось
 
 35. A computer has four page frames. The time of loading, time of last access, and the R and Mbits for each page are as shown below (the times are in clock ticks): 1 (a) Which page will NRU replace? (b) Which page will FIFO replace? (c) Which page will LRU replace? 1 (d) Which page will second chance replace?
-	 ![[Pasted image 20260111202411.png]]
+	 ![[Cache/Pasted image 20260111202411.png]]
 		a)  2
 		b) 3
 		c) 1
@@ -212,7 +212,7 @@ Fragment B
 		 Цитата из Танненбаума: An address in MULTICS consisted of two parts: the segment and the address within the segment. The address within the segment was further divided into a page number and a word within the page, as shown in Fig. 3-35.t
 
 		Если ОС знает и номер сегмента и виртуальный адрес внутри сегмента, то мы можем напрямую обратится в TLB используя {segmentNumber, virtual address} пару ключей. Да, мы используем ключ из двух значений, но не используем 2 раздельных TLB, так что я думаю можно сказать, что это одноуровневый подход
-	47. ![[Pasted image 20260115211528.png]]
+	47. ![[Cache/Pasted image 20260115211528.png]]
 50.Plot a histogram and calculate the mean and median of the sizes of executable binary files on a computer to which you have access. On a Windows system, look at all .exe and .dll files; on a UNIX system look at all executable files in /bin, /usr/bin, and CHAP. 3 PROBLEMS 257 /local/bin that are not scripts (or use the file utility to find all executables). Determine the optimal page size for this computer just considering the code (not data). Consider internal fragmentation and page table size, making some reasonable assumption about the size of a page table entry. Assume that all programs are equally likely to be run and thus should be weighted equally.
 Вод код на питоне для гистограммы и 
 ```c
@@ -955,8 +955,8 @@ int main() {
 
 
 ```
-![[Pasted image 20260124132218.png]]
+![[Cache/Pasted image 20260124132218.png]]
 
 Для UNTAGGED TLB - 8016 фолтов
-![[Pasted image 20260124031338.png]]
+![[Cache/Pasted image 20260124031338.png]]
 Впринципе то же самое)

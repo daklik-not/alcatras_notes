@@ -25,7 +25,7 @@ IDS просто пассивно смотрит - NIDS и HIDS.
 3. Network Intruison detection system - мониторит весь трафик в режиме реального времени и применяет правила
 
 На картинке пример созданного правила в Snort
-![[Pasted image 20260711021419.png]]
+![[Cache/Pasted image 20260711021419.png]]
 
 ```c$
  sudo nano /etc/snort/rules/local.rules // здесь кастомные правила

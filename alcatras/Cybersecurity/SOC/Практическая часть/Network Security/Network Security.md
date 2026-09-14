@@ -29,7 +29,7 @@
 
 #### Практика
 **Логи Firewall - сканирование портов**
-![[Pasted image 20260702154257.png]]
+![[Cache/Pasted image 20260702154257.png]]
 **Логи WAF(межсетевой экран для веб-приложений) - Web Application Firewall**
 ```c
 timestamp=2025-09-22T09:14:44Z src_ip=192.0.2.130 action=ALLOW request="GET /index.html"
@@ -43,4 +43,4 @@ timestamp=2025-09-22T09:14:47Z src_ip=192.0.2.140 action=ALLOW request="GET /css
 timestamp=2025-09-22T09:15:42Z src_ip=[REDACTED] action=BLOCK request="GET /../../../../etc/passwd" rule_id=930120 attack_type="Directory Traversal"...
 ```
 ***Логи VPN шлюза***
-![[Pasted image 20260702155509.png]]
+![[Cache/Pasted image 20260702155509.png]]

@@ -18,7 +18,7 @@ if congestion_detected:
     cwin = cwin / 2 # only once per rtt
 ```
 Пример работы с *sending window*  - \* - пакеты с перегрузкой
-![[Pasted image 20260310182331.png]]
+![[Cache/Pasted image 20260310182331.png]]
 Пример для нескольких хостов и 1 роутера
-![[Pasted image 20260310182341.png]]
+![[Cache/Pasted image 20260310182341.png]]
 ____

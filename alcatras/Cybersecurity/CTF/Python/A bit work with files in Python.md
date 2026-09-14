@@ -33,7 +33,7 @@ for path in current_dir.iterdir():
 ...     print(info.st_mtime) //st_mtime - последнее время редактирования [сек]
 ```
 #### Cоздание директорий
-![[Pasted image 20260117153820.png]]
+![[Cache/Pasted image 20260117153820.png]]
 Под multiple подразумеваются деревья каталогов типо
 Типо так
 ```c

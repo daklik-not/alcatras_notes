@@ -26,7 +26,7 @@ fetchPromise
   });
 ```
 Для этого кода: 
-![[Pasted image 20260502202443.png]]
+![[Cache/Pasted image 20260502202443.png]]
 Access-Control-Allow-Origin означает то, что к ресурсу может быть получен доступ от любого источника.
 Можно так: *Access-Control-Allow-Origin: https://foo.example*
 
@@ -84,7 +84,7 @@ Connection: Keep-Alive
 CORS предоставляет возможность создавать запросы с удостоверениям. По умолчанию fetch() не отправляет удостоверения
 Надо сделать так:  *const request = new Request(url, { credentials: "include" });*
 **Пример**
-![[Pasted image 20260502220400.png]]
+![[Cache/Pasted image 20260502220400.png]]
 
 ```
 GET /resources/credentialed-content/ HTTP/1.1
