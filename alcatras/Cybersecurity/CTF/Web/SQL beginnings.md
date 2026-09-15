@@ -1,7 +1,7 @@
 #sqli
 **DBMS - Database Management Systems** - помогает управлять базами данных
 Есть несколько типов  DBMS - файловые, реляционные, нереляционные, графовые, key-value.
-![[Pasted image 20251104201558.png]]
+![[Cache/Pasted image 20251104201558.png]]
 
 ```
 SELECT * FROM user_actions ORDER BY user_id LIMIT 10 - фетчит первые 10 из user_actions отсортированные по возрастанию

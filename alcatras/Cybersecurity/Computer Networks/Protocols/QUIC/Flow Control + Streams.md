@@ -65,7 +65,7 @@ STREAM Frame {
 
 *Connection-level flow control*
 Можно установить максимальное количество байт, которое будет передано по текущему соединению - *initial_max_data*.  Получатель может увеличить максимальное количество через *MAX_DATA*. Если лимит все-таки достигнут, хост должен послать DATA_BLOCKED кадр.
-![[Pasted image 20260605163954.png]]
+![[Cache/Pasted image 20260605163954.png]]
 Во время рукопожатия получатель указывает максимально число потоков - 
 *initial_max_streams_bidi*, *initial_max_streams_uni*. Можно увеличить *MAX_STREAMS*
 

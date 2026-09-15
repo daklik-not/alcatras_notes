@@ -3,10 +3,10 @@
 **Thread Modeling**
 Набор шагов чтобы значительно улучшить безопасность системы. Для оценки безопасности системы используются методологии *STRIDE*, *DREAD*, *CVSS*.
 На картинке представлена сама цепочка:
-![[Pasted image 20260612150526.png]]
+![[Cache/Pasted image 20260612150526.png]]
 *Lateral movement* - перемещение между машинами, например с компьютера мененджера на компьютер системного аналитика.
 #### IN
-![[Pasted image 20260612164042.png]]
+![[Cache/Pasted image 20260612164042.png]]
 **Reconnaissance ([MITRE Tactic TA0043(opens in new tab)](https://attack.mitre.org/tactics/TA0043/))**
 Изучение, какие системы и сервисы запущены на цели, найти список работников, которых можно эксплуатировать в рамках социальной инженерии, поиск аутентификационных данных.
 **Weaponization ([MITRE Tactic TA0001(opens in new tab)](https://attack.mitre.org/tactics/TA0001/))**
@@ -26,7 +26,7 @@
 
 #### Through
 Следует после IN, то есть первичного проникновения. Атакующий настроит базу на одной из систем, которая будет вести себя как *pivot* точка. На картинке индивидуальная фаза атаки ""Through"".
-![[Pasted image 20260612171316.png]]
+![[Cache/Pasted image 20260612171316.png]]
 #### Pivoting ([MITRE Tactic TA0008(opens in new tab)](https://attack.mitre.org/tactics/TA0008/))
 Когда атакующий получает доступ к какой-либо системе, далее они используют ее в последующих стадиях, как точки распределения.
 #### Discovery ([MITRE Tactic TA0007(opens in new tab)](https://attack.mitre.org/tactics/TA0007/))
@@ -42,7 +42,7 @@
 
 #### OUT
 Действия направлены на подрыв ***CIA TRIAD - confidentially, integrity(целостность), доступность***. 
-![[Pasted image 20260612173253.png]]
+![[Cache/Pasted image 20260612173253.png]]
 
 
 #### **Collection** ([MITRE Tactic TA0009(opens in new tab)](https://attack.mitre.org/tactics/TA0009/))

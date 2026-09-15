@@ -1,5 +1,5 @@
 **PThreads** - стандарт Posix для потоков.
-![[Pasted image 20251101195925.png]]
+![[Cache/Pasted image 20251101195925.png]]
 **thread_id = pthread_create**  - создание потока, thread_id id новосозданного потока.
 **pthread_exit** - завершение потока, очищение его стека.
 **pthread_join**(pfwaiting) - поток ждет завершение какого-то другого потока

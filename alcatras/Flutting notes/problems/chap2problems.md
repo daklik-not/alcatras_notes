@@ -181,7 +181,7 @@ void writer() {
 		
 35. Consider the following piece of C code: void main( ) { fork( ); fork( ); exit( ); } Howmanychild processes are created upon execution of this program?
 	Оказывается после вызова fork() - именно пустого - программа начинает выполнение с следующей строчки. Таким образом 3 дочерних процесса.
-	![[Pasted image 20251216210436.png]]
+	![[Cache/Pasted image 20251216210436.png]]
 36. Round-robin schedulers normally maintain a list of all runnable processes, with each process occurring exactly once in the list. What would happen (scheduling-wise) if a process occurred twice in the list? Can you think of any reason for allowing this?
 	Процесс получит больше квантов времени. Это может быть использовано для реализации приоритетов
 		

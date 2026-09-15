@@ -51,7 +51,7 @@ arp.opcode == 0 - ARP ответ
 
 #### DHCP/NetBIOS/Kerberos Analysis
 Я когда нибудь изучу DHCP полностью, однако пока что, чтобы не отвлекаться просто вот такая табличка. Также DHCP ответ может содержать другую информацию + работает поверх UDP/IP.
-![[Pasted image 20260627200718.png]]
+![[Cache/Pasted image 20260627200718.png]]
 ```c
 dhcp.option.dhcp == 3 // dhcp request
 dhcp.option.dhcp == 5 // dhcp ACK - типо опознавание на прикладном уровне

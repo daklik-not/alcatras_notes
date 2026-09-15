@@ -95,7 +95,7 @@ for i in range(1,100):
 plt.plot(a)
 plt.show()
 ```
-![[Pasted image 20260203021131.png]]
+![[Cache/Pasted image 20260203021131.png]]
 33. For an external USB hard drive attached to a computer, which is more suitable: a write through cache or a block cache?
 		write through cache - поскольку неизвестно, когда юзер вытянет флешку, при этом он может не использовать безопасно извлечение, тогда все модифицированные данные потеряются
 34. Consider an application where students’ records are stored in a file. The application takes a student ID as input and subsequently reads, updates, and writes the correspond ing student record; this is repeated till the application quits. Would the ‘‘block read ahead’’ technique be useful here?
@@ -286,7 +286,7 @@ int main()
 }
 
 ```
- ![[Pasted image 20260205134227.png]]
+ ![[Cache/Pasted image 20260205134227.png]]
  
  48. Write a new version of the UNIX ls program. This version takes as an argument one or more directory names and for each directory lists all the files in that directory, one line per file. Each field should be formatted in a reasonable way given its type. List only the first disk address, if any.
  ```c
