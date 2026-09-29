@@ -1,0 +1,5 @@
+[[Administration + permissions]]
+[[alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Processes|Processes]]
+[[SSH]]
+[[Text commands]]
+[[Самые примитивные команды]]
