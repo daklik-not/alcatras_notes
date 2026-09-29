@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8b057b49f4e97181",
+        "id": "7ca97cc1bee63acc",
         "type": "tabs",
         "children": [
           {
-            "id": "34e605f9cfa0141e",
+            "id": "4b4b590dab6ed811",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutting notes/SOC/Windows Event Logs.md",
+                "file": "Flutting notes/SOC/Sysmon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Event Logs"
-            }
-          },
-          {
-            "id": "f958e69888d0bccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flutting notes/Red-Black tree.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Red-Black tree"
+              "title": "Sysmon"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5f57e43bdd689d67",
@@ -197,18 +183,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "f958e69888d0bccd",
+  "active": "4b4b590dab6ed811",
   "lastOpenFiles": [
+    "Cybersecurity/Операционные системы/Windows/System Structure.md",
+    "Flutting notes/SOC/Sysmon.md",
+    "СТЕК.md",
+    "Cybersecurity/Операционные системы/Windows/Programming Windows.md",
+    "Cybersecurity/Операционные системы/Windows/System Structure/HAL - Hardware Abstraction Layer.md",
+    "Cybersecurity/Операционные системы/Windows/System Structure/Windows Hypervisor - HyperV.md",
+    "Cybersecurity/Операционные системы/Windows/System Structure",
+    "Flutting notes/SOC/Core Windows Processes.md",
+    "Flutting notes/SOC/Web DDoS.md",
+    "Flutting notes/Red-Black tree.md",
     "Flutting notes/TCP Congestion.md",
     "Cybersecurity/SOC/Практическая часть/Network Traffic analysis.md",
     "Cybersecurity/SOC/Практическая часть.md",
     "Cybersecurity/SOC.md",
-    "Flutting notes/SOC/Web DDoS.md",
     "Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
     "Cybersecurity/Computer Networks/Protocols/SCTP.md",
     "Cybersecurity/Computer Networks/Protocols/Remote login.md",
     "Flutting notes/SOC/Windows Event Logs.md",
-    "Flutting notes/SOC/Core Windows Processes.md",
     "Cache/Pasted image 20260813183604.png",
     "Cache/Pasted image 20260813183458.png",
     "Cache/Pasted image 20260813182926.png",
@@ -219,8 +213,6 @@
     "Cache/Pasted image 20260811182328.png",
     "Cache/Pasted image 20260811180509.png",
     "Cache/Pasted image 20260811175224.png",
-    "Cybersecurity/Операционные системы/Windows/System Structure.md",
-    "Cybersecurity/Операционные системы/Windows/Programming Windows.md",
     "Flutting notes/CROC.md",
     "Cybersecurity/CTF/Encrypting/RSA my note.md",
     "Cybersecurity/CTF/Encrypting/DH.md",
@@ -230,11 +222,6 @@
     "Cybersecurity/Операционные системы/LinuxOS/Linux Security.md",
     "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Linux Scheduling.md",
     "Cybersecurity/Операционные системы/LinuxOS/Linux IO.md",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes.md",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Booting Linux.md",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux FS.md",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Создание процесса.md",
-    "Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Process-Management System Calls in Linux.md",
     "CROC",
     "Cache/Без названия",
     "Cybersecurity/CTF/Boost/Без названия.canvas",
@@ -251,7 +238,6 @@
     "Cybersecurity/SOC/Теоретическая часть/Средства защиты",
     "Cybersecurity/SOC/Теоретическая часть/Фреймворки",
     "Cybersecurity/SOC/Практическая часть",
-    "Cybersecurity/SOC/Теоретическая часть",
     "Cybersecurity/Операционные системы/LinuxOS/NFS Example.canvas",
     "Cybersecurity/Операционные системы/Introduction/System calls/Примерная общая схема системного вызова read.canvas",
     "Flutting notes/web-server(some code).canvas"
