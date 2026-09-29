@@ -13,12 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alcatras/Flutting notes/TASK_LIST.md",
+                "file": "alcatras/Flutting notes/SOC/Windows Event Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TASK_LIST"
+              "title": "Windows Event Logs"
+            }
+          },
+          {
+            "id": "adce7fa0715ba230",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
+                "viewState": {
+                  "x": 349.6972000825473,
+                  "y": 239.06423256137805,
+                  "zoom": -0.04517828992039663
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "EventID Reference"
             }
           }
         ]
@@ -83,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.28993225097656,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b606dbe2c30b1e8",
@@ -100,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alcatras/Flutting notes/TASK_LIST.md",
+                "file": "alcatras/Flutting notes/SOC/Windows Event Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,42 +207,43 @@
   },
   "active": "9fbb81a56e7dc4cc",
   "lastOpenFiles": [
-    "alcatras/Cache/Pasted image 20260907163219.png",
+    "alcatras/Flutting notes/SOC/EventID Reference.canvas",
+    "alcatras/Flutting notes/SOC/Windows Event Logs.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/Powershell.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure.md",
+    "Pasted image 20260929004927.png",
+    "Pasted image 20260929004913.png",
+    "Pasted image 20260929004900.png",
+    "Pasted image 20260929004852.png",
+    "Pasted image 20260929004841.png",
+    "Pasted image 20260929004829.png",
+    "Pasted image 20260929004822.png",
+    "alcatras/Flutting notes/SOC/Web DDoS.md",
+    "alcatras/Flutting notes/SOC/Core Windows Processes.md",
+    "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
+    "alcatras/Flutting notes/SOC/Untitled.md",
+    "alcatras/Flutting notes/CROC.md",
+    "alcatras/Flutting notes/Red-Black tree.md",
+    "Pasted image 20260928234208.png",
+    "Pasted image 20260928233554.png",
+    "Pasted image 20260928233551.png",
+    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Windows Registry - Реестр Windows.md",
     "alcatras/Flutting notes/TASK_LIST.md",
     "alcatras/Flutting notes/TASK_LIST.md.lnk",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Native NT Application Programming Interface.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Powershell.md",
     "alcatras/Cybersecurity/SOC/Практическая часть/Tools/Nmap.md",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Administration + permissions.md",
-    "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
-    "alcatras/Cache/Pasted image 20260907162700.png",
-    "alcatras/Cache/Pasted image 20260907162650.png",
-    "alcatras/Cache/Pasted image 20260905020350.png",
-    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/UWP.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Win32 Application Programming Interface.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Windows Registry - Реестр Windows.md",
-    "alcatras/Cache/Pasted image 20260905014813.png",
-    "alcatras/Cache/Pasted image 20260905014653.png",
-    "alcatras/Cache/Pasted image 20260905014650.png",
-    "alcatras/Cache/Pasted image 20260905014635.png",
-    "alcatras/Cache/Pasted image 20260905012225.png",
     "alcatras/Cybersecurity/Операционные системы/Windows.md",
     "alcatras/Cybersecurity/Операционные системы.md",
     "alcatras/Cybersecurity/Архитектура ЭВМ.md",
     "LinuxPractice.md",
-    "alcatras/Cache/Pasted image 20260904234219.png",
     "alcatras/State notes/Cybersecurity.md",
     "alcatras/Cybersecurity/SOC/Web Attacks.md",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Самые примитивные команды.md",
-    "alcatras/Cybersecurity/Операционные системы/Linux.md",
-    "alcatras/Cybersecurity/Операционные системы/Processes && Threads.md",
-    "alcatras/Cybersecurity/Операционные системы/Memory management.md",
-    "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Text commands.md",
-    "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/SSH.md",
-    "alcatras/Flutting notes/Networks/IP.md",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/NFS Example.canvas",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/Ext2 Full example.canvas"
   ]
