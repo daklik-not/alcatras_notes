@@ -20,6 +20,7 @@ Get-WinEvent -FilterHashtable @{
 	ID=11707
 } -MaxEvents 10
 ```
+-FIlterHashTable не рекомендуется использовать не на стандартных логха
 
 ***XPath filtering***
 ![[Pasted image 20260928233554.png]]

@@ -4,11 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "415cdebc9b9db252",
+        "id": "73f59ad92cd9f066",
         "type": "tabs",
         "children": [
           {
             "id": "9fbb81a56e7dc4cc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
+                "viewState": {
+                  "x": 180,
+                  "y": 1130.8999999999999,
+                  "zoom": -0.37851162325372995
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "EventID Reference"
+            }
+          },
+          {
+            "id": "b10c4cf2ad646a28",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
+                "viewState": {
+                  "x": 92.64382800607498,
+                  "y": 559.1088520388688,
+                  "zoom": 0.2881550434129367
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "EventID Reference"
+            }
+          },
+          {
+            "id": "227ba3b3f163944e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,25 +54,9 @@
               "icon": "lucide-file",
               "title": "Windows Event Logs"
             }
-          },
-          {
-            "id": "adce7fa0715ba230",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
-                "viewState": {
-                  "x": 349.6972000825473,
-                  "y": 239.06423256137805,
-                  "zoom": -0.04517828992039663
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "EventID Reference"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,12 +223,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "9fbb81a56e7dc4cc",
+  "active": "227ba3b3f163944e",
   "lastOpenFiles": [
+    "alcatras/Flutting notes/SOC/Windows Logging for SOC.md",
     "alcatras/Flutting notes/SOC/EventID Reference.canvas",
-    "alcatras/Flutting notes/SOC/Windows Event Logs.md",
+    "alcatras/Flutting notes/CROC.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Powershell.md",
+    "alcatras/Flutting notes/SOC/Sysmon.md",
+    "alcatras/Flutting notes/SOC/Core Windows Processes.md",
+    "alcatras/Flutting notes/SOC/Web DDoS.md",
+    "alcatras/Flutting notes/SOC/Windows Event Logs.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure/Windows Hypervisor - HyperV.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure/HAL - Hardware Abstraction Layer.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/System Structure.md",
+    "alcatras/Cybersecurity/Операционные системы/Processes && Threads.md",
+    "alcatras/Cybersecurity/Операционные системы/Memory management.md",
+    "alcatras/Cybersecurity/Операционные системы/Linux.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure",
     "Pasted image 20260929004927.png",
     "Pasted image 20260929004913.png",
     "Pasted image 20260929004900.png",
@@ -218,11 +247,7 @@
     "Pasted image 20260929004841.png",
     "Pasted image 20260929004829.png",
     "Pasted image 20260929004822.png",
-    "alcatras/Flutting notes/SOC/Web DDoS.md",
-    "alcatras/Flutting notes/SOC/Core Windows Processes.md",
     "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
-    "alcatras/Flutting notes/SOC/Untitled.md",
-    "alcatras/Flutting notes/CROC.md",
     "alcatras/Flutting notes/Red-Black tree.md",
     "Pasted image 20260928234208.png",
     "Pasted image 20260928233554.png",
@@ -238,12 +263,6 @@
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/UWP.md",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Win32 Application Programming Interface.md",
     "alcatras/Cybersecurity/Операционные системы/Windows.md",
-    "alcatras/Cybersecurity/Операционные системы.md",
-    "alcatras/Cybersecurity/Архитектура ЭВМ.md",
-    "LinuxPractice.md",
-    "alcatras/State notes/Cybersecurity.md",
-    "alcatras/Cybersecurity/SOC/Web Attacks.md",
-    "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Самые примитивные команды.md",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/NFS Example.canvas",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/Ext2 Full example.canvas"
   ]
