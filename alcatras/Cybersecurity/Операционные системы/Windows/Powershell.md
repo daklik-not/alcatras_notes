@@ -379,4 +379,51 @@ Set-ADAccountPassword -Identity "laptop" -NewPassword $SecurePassword -Reset
 ```
 
 
+#### Логирование
+Парс для XML файлов логов с Event-Data
+```
+function Get-SysmonTable {
+    [CmdletBinding()]
+    param (
+        [Parameter(ValueFromPipeline = $true, Mandatory = $true)]
+        $Event
+    )
+    process {
+        try {
+            # 1. Извлекаем сырой XML из объекта события
+            $xmlText = if ($Event -is [System.Diagnostics.Eventing.Reader.EventLogRecord]) { 
+                $Event.ToXml() 
+            } else { 
+                $Event.ToString() 
+            }
 
+            # 2. Превращаем текст в XML-объект PowerShell
+            [xml]$xmlObj = [xml]$xmlText
+            
+            # 3. Собираем базовые системные метаданные
+            $output = [ordered]@{
+                EventID  = $Event.Id
+                Time     = $Event.TimeCreated
+                Computer = $Event.MachineName
+            }
+            
+            # 4. Автоматически вытаскиваем ВСЕ теги <Data Name="..."> из блока EventData
+            foreach ($node in $xmlObj.Event.EventData.Data) {
+                if ($node.Name) {
+                    $output[$node.Name] = $node.'#text'
+                }
+            }
+            
+            # 5. Возвращаем готовый плоский объект
+            [PSCustomObject]$output
+        } catch {
+            Write-Error "Не удалось обработать событие: $_"
+        }
+    }
+}
+```
+
+#### Поиска файлов
+```
+Get-ChildItem -Path C:\ -Filter "*.pdf" -Recurse -ErrorAction Silent
+```

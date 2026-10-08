@@ -4,59 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "73f59ad92cd9f066",
+        "id": "a290e1147c28222a",
         "type": "tabs",
         "children": [
           {
-            "id": "9fbb81a56e7dc4cc",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
-                "viewState": {
-                  "x": 180,
-                  "y": 1130.8999999999999,
-                  "zoom": -0.37851162325372995
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "EventID Reference"
-            }
-          },
-          {
-            "id": "b10c4cf2ad646a28",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "alcatras/Flutting notes/SOC/EventID Reference.canvas",
-                "viewState": {
-                  "x": 92.64382800607498,
-                  "y": 559.1088520388688,
-                  "zoom": 0.2881550434129367
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "EventID Reference"
-            }
-          },
-          {
-            "id": "227ba3b3f163944e",
+            "id": "8964669d9fea5fee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alcatras/Flutting notes/SOC/Windows Event Logs.md",
+                "file": "alcatras/Flutting notes/SOC/Windows Malware for SOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Event Logs"
+              "title": "Windows Malware for SOC"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nmap",
+                "query": "powershell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b606dbe2c30b1e8",
@@ -223,46 +189,49 @@
       "bases:Create new base": false
     }
   },
-  "active": "227ba3b3f163944e",
+  "active": "8964669d9fea5fee",
   "lastOpenFiles": [
-    "alcatras/Flutting notes/SOC/Windows Logging for SOC.md",
-    "alcatras/Flutting notes/SOC/EventID Reference.canvas",
-    "alcatras/Flutting notes/CROC.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Powershell.md",
-    "alcatras/Flutting notes/SOC/Sysmon.md",
-    "alcatras/Flutting notes/SOC/Core Windows Processes.md",
-    "alcatras/Flutting notes/SOC/Web DDoS.md",
-    "alcatras/Flutting notes/SOC/Windows Event Logs.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure/Windows Hypervisor - HyperV.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure/HAL - Hardware Abstraction Layer.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure.md",
-    "alcatras/Cybersecurity/Операционные системы/Processes && Threads.md",
-    "alcatras/Cybersecurity/Операционные системы/Memory management.md",
-    "alcatras/Cybersecurity/Операционные системы/Linux.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure",
-    "Pasted image 20260929004927.png",
-    "Pasted image 20260929004913.png",
-    "Pasted image 20260929004900.png",
-    "Pasted image 20260929004852.png",
-    "Pasted image 20260929004841.png",
-    "Pasted image 20260929004829.png",
-    "Pasted image 20260929004822.png",
-    "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
-    "alcatras/Flutting notes/Red-Black tree.md",
-    "Pasted image 20260928234208.png",
-    "Pasted image 20260928233554.png",
-    "Pasted image 20260928233551.png",
+    "Pasted image 20261007093928.png",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Windows Registry - Реестр Windows.md",
-    "alcatras/Flutting notes/TASK_LIST.md",
-    "alcatras/Flutting notes/TASK_LIST.md.lnk",
     "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Native NT Application Programming Interface.md",
-    "alcatras/Cybersecurity/SOC/Практическая часть/Tools/Nmap.md",
-    "alcatras/Cybersecurity/Операционные системы/LinuxOS/LinuxPractice/Administration + permissions.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/Windows Subsystems.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/UWP.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows/Programming Windows/The Win32 Application Programming Interface.md",
-    "alcatras/Cybersecurity/Операционные системы/Windows.md",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure.md",
+    "alcatras/Flutting notes/SOC/Windows Malware for SOC.md",
+    "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
+    "alcatras/Flutting notes/CROC.md",
+    "alcatras/Flutting notes/Red-Black tree.md",
+    "alcatras/Flutting notes/TASK_LIST.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Linux logging for SOC.md",
+    "Pasted image 20261005211226.png",
+    "alcatras/Cache/Pasted image 20261005134804.png",
+    "alcatras/Flutting notes/SOC/Untitled",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Network Security/Network Security.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Tools.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Windows.md",
+    "alcatras/Cybersecurity/Операционные системы/LinuxOS/Linux Processes/Содержимое файлов относящихся в task_struct.md",
+    "alcatras/Cybersecurity/SOC.md",
+    "alcatras/Cybersecurity/Операционные системы/File Systems/FS Implementation.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Windows/Windows Event Logs.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Windows/Windows Logging for SOC.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Kerberos.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Windows/Sysmon.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Tools/Ncat.md",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Windows",
+    "alcatras/Cybersecurity/SOC/Практическая часть/Network Security/Network Security 2.md",
+    "alcatras/Cybersecurity/SOC/Теоретическая часть.md",
+    "alcatras/Cybersecurity/SOC/Теоретическая часть/Core Windows Processes.md",
+    "alcatras/Cybersecurity/SOC/Теоретическая часть/EventID Reference.canvas",
+    "alcatras/Cybersecurity/SOC/Теоретическая часть/Web Attacks.md",
+    "alcatras/Cache/Pasted image 20261004122103.png",
+    "alcatras/Cache/Pasted image 20261003133847.png",
+    "alcatras/Cache/Pasted image 20261003092339.png",
+    "alcatras/Cache/Pasted image 20260930145556.png",
+    "alcatras/Cybersecurity/Операционные системы/Windows/System Structure",
+    "alcatras/Cache/Pasted image 20260929004927.png",
+    "alcatras/Cache/Pasted image 20260929004913.png",
+    "alcatras/Cache/Pasted image 20260929004900.png",
+    "alcatras/Cache/Pasted image 20260929004852.png",
+    "alcatras/Flutting notes/TASK_LIST.md.lnk",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/NFS Example.canvas",
     "alcatras/Cybersecurity/Операционные системы/LinuxOS/Ext2 Full example.canvas"
   ]

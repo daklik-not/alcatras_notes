@@ -34,5 +34,3 @@ find /var/www -type f -name "*.php" -newerct "2025-07-01" ! -newerct "2025-08-01
 grep -r "eval(" wp-content // ищем подозрительные строки в файлах, вроде eval
 ```
 
-
-#### Detecting DDOS
