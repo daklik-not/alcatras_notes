@@ -1,0 +1,7 @@
+listening on 0.0.0.0:8053
+listening on 0.0.0.0:8053
+listening on 0.0.0.0:8053
+127.0.0.1 -> google.com. (A) sub=None
+127.0.0.1 -> www.google.com. (A) sub=None
+127.0.0.1 -> mail.example.com. (A) sub='mail'
+127.0.0.1 -> api.example.com. (A) sub='api'

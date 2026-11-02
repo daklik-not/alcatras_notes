@@ -1,0 +1,10 @@
+Administrator           # built-in local admin account
+Guest                   # built-in guest account
+DefaultAccount          # system default account
+WDAGUtilityAccount      # Windows Defender Application Guard
+krbtgt                  # AD domain controller service account
+Administrateur          # built-in admin (FR locale)
+Administrador           # built-in admin (ES/PT locale)
+Гость                   # built-in guest (RU locale)
+daklik-not
+0987azaaz65@gmail.com:
