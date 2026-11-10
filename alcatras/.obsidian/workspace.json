@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutting notes/python/Reconnaince.md",
+                "file": "Cybersecurity/Computer Networks/Principles/Sharing Resourses/Network Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reconnaince"
+              "title": "Network Types"
             }
           },
           {
@@ -198,18 +198,20 @@
   },
   "active": "4b4b590dab6ed811",
   "lastOpenFiles": [
-    "Flutting notes/python/Achieving Code Execution/TaskScheduler.py",
-    "Flutting notes/python/Achieving Code Execution/WMIDetection.py",
-    "Flutting notes/python/Achieving Code Execution/WMIExecution.py",
-    "Flutting notes/python/Achieving Code Execution",
-    "Flutting notes/python/New folder",
+    "Flutting notes/python/terminated.txt",
+    "Flutting notes/python/Evading Defense/WriteToFile.py",
+    "Flutting notes/python/Evading Defense/CheckDecoy.py",
+    "Flutting notes/python/Evading Defense/DetectADS.py",
+    "Flutting notes/python/Evading Defense/results.txt",
+    "Flutting notes/python/Evading Defense/extracted_notepad.exe",
+    "Flutting notes/python/Evading Defense/malicious.txt",
+    "Flutting notes/python/Evading Defense/AlternateDataStreams.py",
+    "Flutting notes/python/Evading Defense/benign.txt",
+    "Flutting notes/python/Evading Defense/terminated.txt",
+    "Flutting notes/python/Evading Defense/DecoyProcess.py",
+    "Cybersecurity/Computer Networks/Principles/Building a network/Control plane.md",
+    "Flutting notes/python/Reconnaince.md",
     "Flutting notes/python/Initial_Access/image.png",
-    "Flutting notes/python/Initial_Access/Practice-Sysmon.evtx",
-    "Flutting notes/python/Initial_Access/Practice-Security.evtx",
-    "Flutting notes/python/Initial_Access/Security.evtx",
-    "Flutting notes/python/Initial_Access/CA_4624_4625_LogonType2_LogonProc_chrome.evtx",
-    "Flutting notes/python/CA_4624_4625_LogonType2_LogonProc_chrome.evtx",
-    "Flutting notes/python/Initial_Access/AutorunDetection.py",
     "Flutting notes/python/Initial access.md",
     "Flutting notes/python/Initial_Access/Initial access.md",
     "Cybersecurity/Computer Networks/Protocols/TCP.md",
@@ -220,7 +222,6 @@
     "Cybersecurity/Computer Networks/Principles/Application/TL work principle/Connection establishment.md",
     "Cybersecurity/Computer Networks/Principles/Application/Transport Layer + working principles.md",
     "Cybersecurity/Computer Networks/Protocols/Application layer.md",
-    "Flutting notes/python/Reconnaince.md",
     "Flutting notes/SOC/Zeek Scripts.md",
     "Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
     "Flutting notes/SOC/Zeek.md",
@@ -236,7 +237,6 @@
     "Cybersecurity/SOC/Теоретическая часть/Средства защиты.md",
     "Cybersecurity/SOC/Теоретическая часть/Web Security Essentials.md",
     "Cybersecurity/SOC/Теоретическая часть/Playbooks and triage guides/SOC L1 Alert Reporting+Escalation.md",
-    "Cybersecurity/SOC/Теоретическая часть/Playbooks and triage guides/SOC Workbooks and Lookups.md",
     "Cache/Pasted image 20261008103256.png",
     "Cybersecurity/Screenshot 2025-11-10 165056 2.png",
     "Cache/Pasted image 20261005134804.png",

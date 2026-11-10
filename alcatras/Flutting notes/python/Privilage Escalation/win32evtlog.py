@@ -1,1 +1,1 @@
-print("Fake win32evtlog")
+print("something")
