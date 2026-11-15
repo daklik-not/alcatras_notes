@@ -2,3 +2,10 @@
 .obsidian/workspace.json
 .obsidian/workspace.json
 .obsidian/app.json
+
+# Python venv (WSL) - служебные файлы, не код. Папка "python" смешанная: рядом лежат заметки и .py
+alcatras/Flutting notes/python/bin/
+alcatras/Flutting notes/python/lib/
+alcatras/Flutting notes/python/lib64
+alcatras/Flutting notes/python/include/
+alcatras/Flutting notes/python/pyvenv.cfg
