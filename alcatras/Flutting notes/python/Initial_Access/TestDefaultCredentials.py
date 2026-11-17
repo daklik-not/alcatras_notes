@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["paramiko"]
+# ///
+
 import paramiko
 import telnetlib
 import smtplib

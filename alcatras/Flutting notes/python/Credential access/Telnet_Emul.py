@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+
 import socket 
 HOST, PORT = "127.0.0.1", 23
 

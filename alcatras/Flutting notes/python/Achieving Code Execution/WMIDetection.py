@@ -1,3 +1,13 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "psutil",
+#     "python-dateutil",
+#     "pywin32",
+# ]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import xml.etree.ElementTree as ET
 import psutil, datetime, pywintypes, win32evtlog, dateutil, hashlib
 

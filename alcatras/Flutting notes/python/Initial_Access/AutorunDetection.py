@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "psutil",
+#     "pywin32",
+# ]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import win32con
 from win32api import GetLogicalDriveStrings
 from win32file import GetDriveType

@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["pyinstaller"]
+# ///
+
 # BuildExe.py
 import PyInstaller.__main__
 

@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["scapy"]
+# ///
+
 from scapy.all import *
 from base64 import b64decode 
 import re

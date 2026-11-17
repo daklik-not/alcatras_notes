@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["WMI"]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import subprocess, wmi
 
 def WMIProcessCreation(name):

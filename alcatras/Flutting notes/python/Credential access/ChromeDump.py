@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "pycryptodome",
+#     "pywin32",
+# ]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import os
 import json
 from base64 import b64decode

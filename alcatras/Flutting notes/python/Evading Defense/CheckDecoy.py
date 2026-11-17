@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["psutil"]
+# ///
+
 import time 
 import psutil
 def follow(path, delay=0.1):

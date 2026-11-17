@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["psutil"]
+# ///
+
 import psutil, os, signal
 
 av_list = ["notepad"]

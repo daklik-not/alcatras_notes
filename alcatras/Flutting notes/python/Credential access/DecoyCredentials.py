@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "aioftp",
+#     "telnetlib3",
+# ]
+# ///
+
 import ftplib
 from time import sleep
 import telnetlib3 # устарвевшая

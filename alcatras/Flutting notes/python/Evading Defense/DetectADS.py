@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+
 import os, re, subprocess
 from pathlib import Path
 def findADS(d):

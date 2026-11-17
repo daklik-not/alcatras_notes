@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import winreg
 # ну типо простенький скрипт добавления в скрипт авторизации
 # это даже не эскалация привилегий, потому что так нельзя в 99% случаев

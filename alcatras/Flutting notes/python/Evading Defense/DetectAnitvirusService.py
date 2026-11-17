@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["psutil"]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import winreg, psutil, subprocess
 from psutil import NoSuchService
 

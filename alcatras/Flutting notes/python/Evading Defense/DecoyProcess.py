@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["setproctitle"]
+# ///
+
 import signal, sys
 from setproctitle import setproctitle
 from time import sleep

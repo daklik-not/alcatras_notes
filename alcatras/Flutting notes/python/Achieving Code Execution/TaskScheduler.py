@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+
 import os, random, subprocess
 from datetime import datetime, timedelta
 from pathlib import Path

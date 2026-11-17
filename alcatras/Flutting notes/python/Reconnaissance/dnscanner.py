@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["dnslib"]
+# ///
+
 import time
 import logging
 from dnslib import A, QTYPE, RR, RCODE, MX, NS, SOA, CNAME, AAAA, TXT

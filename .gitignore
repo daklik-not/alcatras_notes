@@ -9,3 +9,10 @@ alcatras/Flutting notes/python/lib/
 alcatras/Flutting notes/python/lib64
 alcatras/Flutting notes/python/include/
 alcatras/Flutting notes/python/pyvenv.cfg
+
+# Python (uv / PEP 723) - окружения создаются локально, в git не нужны
+alcatras/Flutting notes/python/.venv/
+alcatras/Flutting notes/python/**/__pycache__/
+__pycache__/
+*.pyc
+*.py.lock

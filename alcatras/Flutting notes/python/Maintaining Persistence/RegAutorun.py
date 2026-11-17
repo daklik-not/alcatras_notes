@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = []
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import shutil, winreg, subprocess
 from pathlib import Path
 # лучше полностью перейти на Path

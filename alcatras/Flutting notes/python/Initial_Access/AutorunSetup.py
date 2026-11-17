@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["pyinstaller"]
+# ///
+
 import PyInstaller.__main__
 import shutil
 import os

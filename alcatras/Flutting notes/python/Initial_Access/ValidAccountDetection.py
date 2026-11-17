@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "pandas",
+#     "pywin32",
+# ]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import win32evtlog
 from collections import defaultdict
 server = "localhost"

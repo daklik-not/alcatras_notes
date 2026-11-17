@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["psutil"]
+# ///
+
 import os, pathlib, subprocess, csv, io, re, hashlib, psutil
 
 

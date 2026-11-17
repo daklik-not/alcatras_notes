@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["pywin32"]
+# ///
+# platform: windows-only (pywin32 / winreg / WMI)
+
 import win32evtlog
 import xml.etree.ElementTree as ET
 
