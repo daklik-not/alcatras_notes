@@ -53,10 +53,20 @@ def extractHTTP(p):
             for d in data:
                 extractData(d)
 
+def extractICMP(p):
+    if p.haslayer(Raw):
+        data = p[Raw].load
+        decoded_data =  data.decode()
+        print(b64decode(decoded_data))
+
 def analyzePackets(p):
     if p.haslayer(HTTPRequest) or p.haslayer(HTTPResponse):
         # p.show() - подробно выводит все пакеты
         extractHTTP(p)
-sniff(prn=analyzePackets) 
+    elif p.haslayer(ICMP):
+        extractICMP(p)
+
+        
+sniff(iface="lo", prn=analyzePackets) 
 
 # sudo /home/daklik_not/.local/bin/uv run Implementing\ C2/ProtocolDecoder.py 
