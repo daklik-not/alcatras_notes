@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alcatras/Flutting notes/python/Reconnaince.md",
+                "file": "alcatras/Flutting notes/python/Reconnaince66.249.73.135 482.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reconnaince"
+              "title": "Reconnaince66.249.73.135 482"
+            }
+          },
+          {
+            "id": "b566e4fdd10f1765",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
             }
           }
         ]
@@ -55,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zeek",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,12 +91,12 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b606dbe2c30b1e8",
@@ -192,7 +204,7 @@
   "active": "ce1e0dad7f8fcfff",
   "lastOpenFiles": [
     "alcatras/Flutting notes/Containers+Kubernetes(МИРЭА практика).md",
-    "alcatras/Flutting notes/python/Reconnaince.md",
+    "alcatras/Flutting notes/python/Reconnaince66.249.73.135 482.md",
     "alcatras/Flutting notes/problems/chap1problems.md",
     "alcatras/Flutting notes/problems/chap2problems.md",
     "alcatras/Flutting notes/problems/chap3problems.md",
