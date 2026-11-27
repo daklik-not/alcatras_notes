@@ -1,0 +1,24 @@
+Transmitting {"user": "admin", "passw
+Recieved successfully
+Transmitting ord": "SuperSecretPass12
+Recieved successfully
+Transmitting 3!", "api_key": "sk-9876
+Recieved successfully
+Transmitting 543210abcdef", "db_host"
+Recieved successfully
+Transmitting : "10.0.0.5"}
+Recieved successfully
+Sending end marker (R)
+Recieved successfully
+Transmitting {"user": "admin", "passw
+Recieved successfully
+Transmitting ord": "SuperSecretPass12
+Recieved successfully
+Transmitting 3!", "api_key": "sk-9876
+Transmission error
+Transmitting 543210abcdef", "db_host"
+Transmission error
+Transmitting : "10.0.0.5"}
+Recieved successfully
+Sending end marker (R)
+Recieved successfully
