@@ -64,4 +64,4 @@ def processPacket(p):
                     print(f"[-] Entropy is base64-like, but cannot decode: {v}")
 
 
-sniff(prn = processPacket)
+sniff(iface = "lo", prn = processPacket)

@@ -68,7 +68,7 @@ def extractData(x):
     try:
         decoded = b64decode(data).decode("utf-8")
         print(f"Recieved: {decoded}")
-        if decoded == "R": # типо говорим что коцне
+        if decoded == "RRRR": # типо говорим что коцне
             sendResponse(x, "10.0.0.2")
             print("End transmission")
             print(extracted)

